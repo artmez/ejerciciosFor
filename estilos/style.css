@@ -1,0 +1,32 @@
+.imgLinkedin {
+position: relative;
+display: inline-block;
+}   
+
+.imgLinkedin .imgOther {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.imgLinkedin:hover .imgOther {
+    display: inline;
+}
+
+.ej:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+#logoDevf {
+    background-color: black;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+}
